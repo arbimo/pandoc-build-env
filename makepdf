@@ -1,0 +1,3 @@
+#!/bin/sh
+
+pandoc rapport.md -o Rapport.pdf --standalone --toc --data-dir .
