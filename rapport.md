@@ -1,5 +1,5 @@
-% Travaux Pratiques 1 & 2
-% Arthur Bit-Monnot
+% Titre
+% Auteurs
   
   
 # Introduction

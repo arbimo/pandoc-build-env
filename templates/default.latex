@@ -6,6 +6,23 @@
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
 \usepackage{graphicx}
+
+% Pour les tableaux
+\usepackage{csvsimple}
+
+% pour forcer le placement d'un image à un endroit (H)
+\usepackage{float}
+
+% pour ajuster la taille de l'image
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\mymaxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+\else\Gin@nat@width\fi}
+\makeatother
+
+\usepackage{ctable}
 % use microtype if available
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
