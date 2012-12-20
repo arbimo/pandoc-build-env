@@ -2,8 +2,8 @@ import re
 
 # http://www.pythonregex.com/
 
-png_re = re.compile("!\[(?P<caption>[^\]]+)\]\((?P<path>[^\)]+\.png)\)$")
-csv_re = re.compile("!\[(?P<caption>[^\]]+)\]\((?P<path>[^\)]+\.csv)\)$")
+png_re = re.compile("!\[(?P<caption>[^\]]*)\]\((?P<path>[^\)]+\.png)\)$")
+csv_re = re.compile("!\[(?P<caption>[^\]]*)\]\((?P<path>[^\)]+\.csv)\)$")
 
 tex_figure = ("\\begin{figure}[H]\n"
               "  \centering\n"
